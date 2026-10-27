@@ -1,6 +1,8 @@
-# Atlas — AI for study
+# Kompas — AI for study
 
-A student focused AI tool discovery prototype built with React and Vite. It includes an explore page, a comparison page, and a short recommendation flow. Ranking and rating values are mock data for the prototype.
+A student-focused AI tool discovery prototype built with React and Vite. It includes Explore, Compare, Find my match, and Research team pages, plus tool profiles, privacy guidance, an AI explainer, and local-only ratings. Rankings, ratings, prices, student offers, and researcher profiles are mock examples for the prototype.
+
+The AI brand SVGs in `public/logos` were sourced from [LobeHub Icons](https://github.com/lobehub/lobe-icons).
 
 ## Run locally
 
@@ -24,4 +26,4 @@ This project is configured for Vercel with the Vite framework, `npm run build` a
 2. In Vercel, choose **Add New → Project** and import the repository.
 3. Keep the detected Vite settings and deploy. No environment variables are required for this prototype.
 
-Future changes pushed to the connected branch will trigger a new deployment. The current three views use client-side state and need no server routes.
+Future changes pushed to the connected branch will trigger a new deployment. The current pages use client-side state and need no server routes. Ratings are stored in the visitor's browser only and are not shared with other users.
