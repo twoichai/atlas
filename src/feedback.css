@@ -1,0 +1,29 @@
+.text-logo{font:800 16px Manrope,sans-serif;color:#172b4d}
+.privacy-nudge{display:flex;align-items:center;gap:11px;margin:-10px 0 21px;padding:10px 13px;border:1px solid #d7e1ea;border-radius:8px;background:#f8fafc}
+.privacy-nudge .traffic-dot{margin:0 2px 0 0}
+.privacy-nudge p{flex:1;margin:0;color:#657991;font-size:9px;line-height:1.5}
+.privacy-nudge p b{color:#172b4d;margin-right:4px}
+.privacy-nudge button,.inline-link{border:0;background:transparent;color:#355f82;font-size:9px;font-weight:700;white-space:nowrap;cursor:pointer}
+.privacy-nudge button:hover,.inline-link:hover{text-decoration:underline}
+.score-transparency{display:grid;grid-template-columns:1.35fr .65fr;gap:12px;margin:22px 0 25px}
+.score-transparency-intro,.score-limit{border:1px solid #d7e1ea;border-radius:10px;background:#fff;padding:18px 19px}
+.score-transparency-intro>span{font-size:8px;font-weight:700;letter-spacing:1px;color:#9a7614}
+.score-transparency-intro h2{margin:8px 0;color:#172b4d;font:650 17px Manrope,sans-serif}
+.score-transparency-intro p,.score-limit p{margin:0;color:#687c92;font-size:10px;line-height:1.65}
+.score-limit{background:#fffbea;border-color:#efe2aa}
+.score-limit b{display:block;margin-bottom:7px;color:#66530a;font-size:10px}
+.criteria-heading{margin:0 0 10px;color:#172b4d;font:650 15px Manrope,sans-serif}
+.criteria-explanations{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.criteria-explanations article{display:flex;gap:10px;align-items:flex-start;border:1px solid #dce5ed;border-radius:8px;background:#fff;padding:12px}
+.criteria-explanations article>span{color:#9a7614;font:700 9px Manrope}
+.criteria-explanations h3{margin:0;color:#263f5f;font:650 10px Manrope}
+.criteria-explanations p{margin:4px 0 0;color:#75869a;font-size:9px;line-height:1.5}
+.evidence-sources{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+.evidence-sources>div{padding:11px 12px;border-left:2px solid #172b4d;background:#eaf1f7}
+.evidence-sources span{font-size:7px;font-weight:700;letter-spacing:.8px;color:#526e8b}
+.evidence-sources p{margin:5px 0 0;color:#60748c;font-size:8px;line-height:1.55}
+.score-caveat{margin:0 0 8px;color:#75869a;font-size:9px;line-height:1.5}
+.inline-link{padding:0;font-size:inherit}
+.dialog-fit small{max-width:110px;line-height:1.4}
+.student-pulse>div strong{font-size:11px}
+@media(max-width:760px){.privacy-nudge{align-items:flex-start;flex-wrap:wrap;margin-top:-6px}.privacy-nudge p{flex-basis:calc(100% - 28px)}.privacy-nudge button{margin-left:26px}.score-transparency,.criteria-explanations,.evidence-sources{grid-template-columns:1fr}.score-transparency-intro,.score-limit{padding:14px}.student-pulse>div{max-width:55%}}
